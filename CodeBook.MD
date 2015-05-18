@@ -24,19 +24,20 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 For each record in the dataset it is provided: 
  Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration. 
  Triaxial Angular velocity from the gyroscope. 
-A 561-feature vector with time and frequency domain variables. 
-Its activity label. 
-An identifier of the subject who carried out the experiment.
-Section 1. Merge the training and the test sets to create one data set.
+ A 561-feature vector with time and frequency domain variables. 
+ Its activity label. 
+ An identifier of the subject who carried out the experiment.
+ 
+###Section 1. Merge the training and the test sets to create one data set.
 After setting the source directory for the files, read into tables the data located in
-features.txt
-activity_labels.txt
-subject_train.txt
-x_train.txt
-y_train.txt
-subject_test.txt
-x_test.txt
-- y_test.txt
+* features.txt
+* activity_labels.txt
+* subject_train.txt
+* x_train.txt
+* y_train.txt
+* subject_test.txt
+* x_test.txt
+* y_test.txt
 
 ###Assign column names and merge to create one data set.
 
